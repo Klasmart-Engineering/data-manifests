@@ -6,7 +6,7 @@ global:
     repository: ghcr.io/kl-engineering/data-microgateway
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
-    tag: latest
+    tag: main
 
   # These variables are used to set the directory which the templating engine
   # resolves the configuration for the krakend.json file
