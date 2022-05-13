@@ -1,3 +1,0 @@
-[submodule "dependencies/microgateway-base-helm"]
-	path = dependencies/microgateway-base-helm
-	url = https://github.com/KL-Engineering/microgateway-base-helm.git
