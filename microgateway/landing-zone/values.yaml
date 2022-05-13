@@ -14,7 +14,8 @@ global:
   region: "global"
   environment: "landing-zone"
 
-  imagePullSecrets: []
+  imagePullSecrets:
+    - name: regcred
   nameOverride: "data-microgateway"
   fullnameOverride: "data-microgateway"
 # kl-base-microgateway:

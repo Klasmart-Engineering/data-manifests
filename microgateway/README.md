@@ -10,6 +10,25 @@ In order to use this helm chart, please make sure you supply your own `values.ya
 The values in the `values.yaml` file in this repository are placeholders only and should
 not be used in any environment.
 
+## Adding charts as dependencies
+
+Add the sub-chart as a git submodule
+
+```sh
+git submodule add <url>
+```
+
+Then add it as a dependency in your `Chart.yaml` file.
+
+```yaml
+dependencies:
+  - name: kl-base-microgateway
+    repository: file://../../dependencies/microgateway-base-helm
+    version: 0.1.0
+```
+
+Finally run `helm dependency update`
+
 ## Original Source
 
 [KrakenD Community Helm Chart](https://github.com/mikescandy/krakend-helm)
