@@ -1,6 +1,6 @@
 dependencies:
 - name: kl-base-microgateway
-  repository: file://../../dependencies/microgateway-base-helm
+  repository: https://raw.githubusercontent.com/kl-engineering/microgateway-base-helm/main
   version: 0.1.0
-digest: sha256:ce857235fddc8fc1a600061a0e6bd8805e8b23395d617e58e2b1ce38948ebdf3
-generated: "2022-05-12T18:47:05.683257-06:00"
+digest: sha256:33ff39698ad9fd8f2200620cc638578e3649c7e00b8be5d7d310eab933f298d7
+generated: "2022-05-17T14:44:14.269578+01:00"
