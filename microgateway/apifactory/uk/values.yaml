@@ -4,7 +4,7 @@
 global:
   image:
     repository: ghcr.io/kl-engineering/data-microgateway
-    pullPolicy: IfNotPresent
+    pullPolicy: Always
     # Overrides the image tag whose default is the chart appVersion.
     tag: main
 
