@@ -14,7 +14,8 @@ global:
   region: "uk"
   environment: "apifactory"
 
-  imagePullSecrets: []
+  imagePullSecrets:
+  - name: dockerconfigjson-ghcr
   nameOverride: "data-microgateway"
   fullnameOverride: "data-microgateway"
 # kl-base-microgateway:

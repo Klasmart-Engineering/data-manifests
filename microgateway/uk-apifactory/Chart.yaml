@@ -1,5 +1,5 @@
 apiVersion: v2
-name: data-manifests-landing-zone
+name: data-manifests-uk-apifactory
 description: A Helm chart for Kubernetes
 
 # A chart can be either an 'application' or a 'library' chart.
