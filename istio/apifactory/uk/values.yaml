@@ -1,9 +1,9 @@
-nameOverride: "data-microgateway"
-fullNameOverride: data-microgateway
-domain: apifactory.kidsloop.live
-subdomain: data
-serviceName: data-microgateway
-
-istio:
-  certIssuerName: letsencrypt-istio-dns
-  namespace: istio-system
+istio-microgateway-networking:
+  nameOverride: "data-microgateway"
+  fullNameOverride: data-microgateway
+  domain: apifactory.kidsloop.live
+  subdomain: data
+  serviceName: data-microgateway
+  istio:
+    certIssuerName: letsencrypt-istio-dns
+    namespace: istio-system
