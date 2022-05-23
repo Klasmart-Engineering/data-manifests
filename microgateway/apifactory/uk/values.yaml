@@ -6,7 +6,7 @@ global:
     repository: ghcr.io/kl-engineering/data-microgateway
     pullPolicy: Always
     # Overrides the image tag whose default is the chart appVersion.
-    tag: main
+    tag: v0.0.1
 
   # These variables are used to set the directory which the templating engine
   # resolves the configuration for the krakend.json file
